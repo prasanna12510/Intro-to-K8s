@@ -1,0 +1,8 @@
+.vagrant/*
+temp/*
+hugo-app/*
+hugo-app-jenkins/*
+hugo-app-travis/*
+hugo-app-wercker/*
+terraform/k8s-windows-node-aws/.terraform/*
+terraform/k8s-windows-node-aws/terraform.tfstate*

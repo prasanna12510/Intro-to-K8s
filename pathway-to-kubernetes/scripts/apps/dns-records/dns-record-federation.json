@@ -1,0 +1,20 @@
+{
+  "Comment": "Create/Update a latency-based CNAME record for a federated Deployment",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "success-fed.cto.logi.com",
+        "Type": "CNAME",
+        "Region": "us-east-2",
+        "TTL": 300,
+        "SetIdentifier": "us-east-2",
+        "ResourceRecords": [
+          {
+            "Value": " a6c2a4cfb0ce511e8bc4e02ab501f166-1966388695.us-east-2.elb.amazonaws.com "
+          }
+        ]
+      }
+    }
+  ]
+}
